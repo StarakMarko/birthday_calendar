@@ -11,7 +11,7 @@ from keep_alive import keep_alive
 # Зміщення UTC для вашого часового поясу.
 # Якщо ваш час UTC+3, встановіть UTC_OFFSET = 3.
 UTC_OFFSET = 3
-message_hour = 16  # Година, коли повідомлення має бути надіслано (за місцевим часом)
+message_hour = 7  # Година, коли повідомлення має бути надіслано (за місцевим часом)
 
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
